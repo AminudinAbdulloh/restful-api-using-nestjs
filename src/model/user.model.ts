@@ -9,6 +9,11 @@ export class LoginUserRequest {
     password: string;
 }
 
+export class UpdateUserrequest {
+    password?: string;
+    name?: string;
+}
+
 export class UserResponse {
     username: string;
     name: string;
